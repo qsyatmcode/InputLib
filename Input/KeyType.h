@@ -11,7 +11,9 @@ namespace dsinput {
 		ESCAPE,
 		ASCII,
 		TAB, // graph
-		BACKSPACE
+		BACKSPACE,
+		PAGE_DOWN,
+		PAGE_UP
 	};
 
 	// KeyType to string representation

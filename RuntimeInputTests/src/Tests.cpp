@@ -9,5 +9,6 @@ int main() {
 	while (true) {
 		auto key = handler.ReadKey();
 		cout << dsinput::KeyTypeToString(key.keyType) << endl;
+		//cout << key.code << endl;
 	}
 }

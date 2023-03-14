@@ -16,7 +16,9 @@ namespace dsinput {
 				{27, KeyType::ESCAPE},
 				{0, KeyType::ASCII},
 				{9, KeyType::TAB},
-				{8, KeyType::BACKSPACE}
+				{8, KeyType::BACKSPACE},
+				{81, KeyType::PAGE_DOWN},
+				{73, KeyType::PAGE_UP}
 	};
 
 }
