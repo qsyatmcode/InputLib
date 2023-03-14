@@ -1,6 +1,7 @@
 #pragma once
 
 #include "KeyType.h"
+#include <iostream>
 
 namespace dsinput {
 

@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "KeyType.h"
 
-std::string dsinput::KeyTypeToString(KeyType type) {
+std::string dsinput::KeyTypeToString(KeyType type) {// TODO: L|R SHIFT, L|R CTRL, PGUP, PGDOWN
 	std::map<KeyType, std::string> typeStrings{
 		{KeyType::ARROW_UP, "ARROW_UP"},
 		{KeyType::ARROW_DOWN, "ARROW_DOWN"},
